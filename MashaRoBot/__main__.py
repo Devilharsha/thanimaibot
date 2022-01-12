@@ -73,20 +73,20 @@ telegram Group management with lots of features.
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
+            text="Aᴅᴅ Mᴇ 🥰", url="t.me/SetoKaibaRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
+        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/harshahero"),
     ],
     [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
+        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/PegasusUpdates"),
+        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Pegasussupportchat"),
     ],
     [
-        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
+        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", url="t.me/setokaibasupport_chat"),
         ),
     ],
 ]
@@ -101,8 +101,8 @@ Commands available:
 × /help: Give's you this message.
 All commands can either be used with / OR !."""
 
-START_IMG = "https://telegra.ph/file/91d3a167481da71ab5b44.mp4"
-MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
+START_IMG = "https://telegra.ph/file/e80948d3d947eefbd2e08.jpg"
+MASHA_IMG = "https://telegra.ph/file/bcb8b7df34569d73ef021.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" Hi..🤗 I'm *seto Kaiba*
+                 \nMy source code is private  [support](t.me/Pegasussupportchat) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
