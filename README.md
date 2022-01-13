@@ -52,7 +52,7 @@ The Unlimited Dyons to Deploy This Bot is Via Railway.
 	
   <h1>
     <p align="center">
-        <a href="https://railway.app/new/template?template=https://github.com/proTamizhan/thanimaibot">
+        <a href="https://railway.app/new/template?template=https://github.com/Devilharsha/thanimaibot">
             <img src="https://railway.app/button.svg" alt="Deploy">
         </a>
     </p>
