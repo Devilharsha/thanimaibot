@@ -87,7 +87,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", url="t.me/setokaibasupport_chat"),
-        ),
     ],
 ]
 
